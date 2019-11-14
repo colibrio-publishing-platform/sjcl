@@ -18,7 +18,8 @@
   "scripts": {
     "test": "make test",
     "jsdoc": "jsdoc -c jsdoc.conf.json",
-    "lint": "eslint . || true"
+    "lint": "eslint . || true",
+    "build": "./configure blablalbalb && make"
   },
   "browser": {
     "crypto": false
