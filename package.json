@@ -19,7 +19,7 @@
     "test": "make test",
     "jsdoc": "jsdoc -c jsdoc.conf.json",
     "lint": "eslint . || true",
-    "build": "./configure --compress=none --without-all --with-ccmArrayBuffer --with-hmac  && make"
+    "build": "./configure --compress=none --without-all --with-ccmArrayBuffer --with-hmac --with-ccm && make"
   },
   "browser": {
     "crypto": false
